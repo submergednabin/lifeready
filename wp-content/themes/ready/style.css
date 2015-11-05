@@ -1,0 +1,137 @@
+/* 
+Theme Name: Style Ready Theme
+Author: Style Ready
+Author URI:
+Version: 1.0
+ */
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+body{font-family: "Roboto";font-size: 16px;font-style:normal;font-weight:normal;line-height: 28px;color:#fff;}
+h1,h2,h3,h4,h5,h6{color:#fff; font-weight: 300;font-family: 'oswald';}
+h1{font-size: 55px;}
+h2{font-size: 45px;}
+h3{font-size: 30px;}
+h4{font-size: 25px;}
+h5{font-size: 20px;}
+p{margin: 0 0 10px 0;}
+ul/ol{margin: 0 0 0 10px;}
+li{margin: 0; list-style: none;}
+li.lists {list-style: decimal !important;}
+button{display: block;}
+a{text-decoration: none;color:#f36323;}
+/*-----------------------------------------------------HOME PAGE-----------------------------------------------------------------------*/
+.header-container {padding: 10px 0;}
+.logo a{display: block;}
+.logo figure {width: 117px; height: 105px; overflow: hidden;}
+.nav > li > a{padding: 45px; color: #444444; font-size: 18px;}
+.nav > li > a:hover{color: #f36323; background: none; background:url(http://localhost/Lifetheme/wp-content/uploads/2015/07/hover.png) no-repeat 45px 80px; padding-bottom: 10px 0 0 0;}
+.banner-container{position: relative;}
+.banner-container figure img{ width: 100%; height:631px; overflow: hidden;}
+.banner-detail{ position: absolute; top: 26%; left: 28%;}
+.banner-detail p{ text-align: center; margin: 15px 0 30px 0; font-size: 24px;}
+.banner-detail h1 a{color: #fff;}
+.banner-detail .btn-default{background: none; color: #fff; padding: 15px 30px; font-size: 30px; border: 2px solid #fff; margin: 0 auto; display: block; border-radius: 0;}
+.banner-detail .btn-default:hover,.services .btn-primary:hover{ background: #fff; color: #4a8cd7;}
+.about-container{background: #8dbc44;padding: 50px 0 50px 0;}
+
+.about h2 a,.about p{color: #fff;}
+.about p{ font-size: 18px;}
+.necessary-container{padding: 40px 0  50px;}
+.necessary h2 {color: #6b6b6b;}
+.necessary p{font-size: 20px; color: #6c6c6c;}
+.necessary-img{padding-left: 0; overflow: hidden; margin: 20px 0 0 0;}
+.necessary-img figure{ width: 100%; height: 528px; overflow: hidden;}
+.necessary-text h3{ font-size: 35px;color: #6c6c6c;padding: 165px 0 0 0;}
+
+
+.necessary-text p{font-size: 16px; color: #6c6c6c;}
+.service-container {background: #4a8cd7; padding: 50px 0;}
+.service-wrapper {margin: 0 0 15px -13px; overflow: hidden;}
+.services h2 a,services p{color: #fff;}
+.services p{font-size: 20px;}
+.services-image figure img{ width: 100%; height: 236px; overflow: hidden;}
+.img-zoom {width: 250px;-webkit-transition: all .2s ease-in-out;- MOZ-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;}
+.transition {-webkit-transform: scale(2); - MOZ-transform: scale(2);-o-transform: scale(2);transform: scale(2);}
+.services-image { overflow: hidden;}
+.services-content{background: #fff; padding: 15px; border-radius: 0 0 4px 4px;}
+.content-image {float: left;}
+.content-image figure{ width: 83px; height: 96px; overflow: hidden;}
+.content-detail{ overflow: hidden; padding: 0 0 0 15px;}
+.content-detail h5,.content-detail p{color: #6c6c6c;}
+.content-detail p{ font-size: 13px; line-height: 24px;}
+.services .btn-primary{background: none; color: #fff; padding: 15px 30px; font-size: 16px; border: 1px solid #fff; margin: 0 auto; display: block; border-radius: 0;}
+.question-container{background: #f1f1f1; padding: 50px 0;}
+.question h2{ text-align: center; color: #6c6c6c;}
+.question p{color:#6c6c6c; text-align: center; padding-bottom: 25px;}
+.question p{font-size: 25px; margin: 15px 0 15px 0;}
+.question .btn-success{background: none; color: #6c6c6c; padding:15px 30px;; font-size: 30px; border: 2px solid #8dbc44; margin: 0 auto; display: block; border-radius: 0;}
+.question .btn-success:hover{background:#8dbc44; color: #4a8cd7;}
+.footer-container {background: #464646; padding: 50px 0 20px 0;}
+.footer-block{ background:url(http://localhost/Lifetheme/wp-content/uploads/2015/07/footer.png) no-repeat right center;}
+.footer h3 a,.footer ul li a{color: #fff;}
+.footer-block ul li{margin: 0;}
+.footer ul{ list-style: none;}
+address {float: left; margin: 0 67px 0 0;}
+.contact-info{ overflow: hidden;}
+.address1{ float:left;}
+.address2{ overflow: hidden;}
+.address2 a{color: #fff;}
+.address2 a:hover{ color:#f36323; text-decoration: none;}
+.footer ul li a:hover,.footer-bottom a:hover {color:#f36323; text-decoration: none;}
+.footer-bottom{ border-top: 1px solid #000; margin: 25px 0 0 0;}
+.footer-bottom p{text-align: center; padding: 20px 0 0 0;}
+.footer-bottom a,.footer-bottom p{color: #fff; font-size: 14px;}
+.footer-blocks{ padding: 0 0 0 30px;background:url(http://localhost/Lifetheme/wp-content/uploads/2015/07/footer.png) no-repeat right center;}
+.footer-blocks:last-child {background: none;}
+.social-media{ margin: 15px 0 0 0;}
+.social-media ul li {display: inline-block;list-style: none; margin: 0 0 0 3px;}
+.social-media ul{padding: 0;}
+.fa-facebook,.fa-twitter,.fa-google-plus{ background: #91be4a; padding: 10px; border-radius: 100%;}
+i.fa.fa-facebook:hover,i.fa.fa-twitter:hover,i.fa.fa-google-plus:hover{ color: #91be4a; background: #fff;}
+
+/*-----------------------------------------------------COMPANY PAGE-----------------------------------------------------------------------*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus { background: #fff; color: #f36323;background:url(../images/hover.png) no-repeat 45px 80px;}
+.company-detail{ position: absolute; top: 41%; left: 17%;}
+.company-detail h1{ text-align: center;}
+.company-detail p{ text-align: center; margin: 10px 0 30px 0; font-size: 24px;}
+.about-text {margin-top: 30px;}
+.work-container{ padding: 50px 0;}
+.work h2{color: #6b6b6b;}
+.content-list{ overflow: hidden; margin: 30px 0 0 0;}
+.content-img figure img{width: 100px; height: 106px; overflow: hidden;}
+.content-text{ margin-left: -44px;}
+.content-text h3{font-size: 30px; color: #6b6b6b;}
+.content-text p{ font-size: 16px; line-height: 24px; color: #6b6b6b;}
+
+/*-----------------------------------------------------SERVICE PAGE-----------------------------------------------------------------------*/
+.service-detail{ position: absolute; top: 41%; left: 26%;}
+.service-detail h1{ text-align: center;}
+.service-detail p{ text-align: center; margin: 10px 0 30px 0; font-size: 24px;}
+.service p{ font-size: 18px;}
+.service h2{ font-size: 36px;}
+.current-container{ padding: 50px; 0; background: #4a8cd7;}
+.current h2{ text-align: center;}
+.current ul{list-style:decimal;}
+.list{ float: right;}
+.verticalline{position: absolute;top: 10%;bottom: 15%;left: 10.2%;width: 4px;background: #4a8cd7;z-index: -1;}
+
+/*-----------------------------------------------------CONTACT PAGE-----------------------------------------------------------------------*/
+.contact-container {padding: 50px 0;}
+.contact-us h3{ color: #6b6b6b;}
+.contact-icon {float:left;}
+.contact-detail{ overflow: hidden;}
+.contact-wrapper{overflow: hidden; margin: 0 0 15px 0;}
+/*.contact-icon figure img{ width: 78px; height: 90px; overflow: hidden;}*/
+.contact-detail strong{color: #6b6b6b; font-size: 24px;}
+.contact-detail address{ color: #6b6b6b;margin: 20px 0 0 0; padding:0;}
+/*address{}*/
+.mail{ text-decoration: underline;}
+.contact-block h3{ color: #6b6b6b;}
+label { color: #6b6b6b; font-size: 18px; font-weight: normal; margin-bottom: -8px;}
+.required {color: #f36323; float: right; padding-left: 5px;}
+input#name, input#organisation, input#email1{width: 360px; height: 40px;}
+.btn-danger{background: none; color: #444444; padding: 10px 40px; font-size: 18px; border: 2px solid #8dbc44; margin: 0 auto; border-radius: 4px;}
+.btn-danger:hover{background:#8dbc44; color: #4a8cd7; border: none;}
